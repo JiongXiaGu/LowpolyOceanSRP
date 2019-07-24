@@ -43,7 +43,7 @@ namespace JiongXiaGu.LowpolyOceanSRP
         }
 
 #if UNITY_EDITOR
-        [UnityEditor.MenuItem(EditorHelper.MenuItemNameRoot + nameof(LogSystemInfos))]
+        [UnityEditor.MenuItem("Assets/" + nameof(LowpolyOceanSRP) + "/" + nameof(LogSystemInfos))]
         private static void LogSystemInfos()
         {
             var info = new SystemEnvironment();
